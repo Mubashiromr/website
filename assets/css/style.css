@@ -3,6 +3,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #040404;
+  color: rgb(255, 255, 255);
+  position: relative;
+  background: transparent;
+}
 
 body::before {
   content: "";
@@ -108,7 +115,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(230, 4, 4);
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
   line-height: 1;
   margin-right: 8px;
